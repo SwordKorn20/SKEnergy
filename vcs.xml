@@ -6,7 +6,12 @@
           <option name="url" value="http://github.com" />
           <option name="userName" value="SwordKorn20" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/SwordKorn20/IndustryMod.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
+    <option name="cloneParentDir" value="C:\Users\Adam\Documents" />
   </component>
 </application>
