@@ -1,6 +1,6 @@
 package com.SKEnergy.api.energy;
 
-import com.SKEnergy.api.RotationalDirection;
+import net.minecraft.util.EnumFacing;
 
 /**
  * Used for implementation of energy storage/transmission to approriate TileEntity energy transportation blocks
@@ -14,5 +14,5 @@ public interface IEnergyConnection
     /**
      * Returns true if the TileEntity can connect on a given side
      */
-    boolean canConnectEnergy(RotationalDirection from);
+    boolean canConnectEnergy(EnumFacing from);
 }

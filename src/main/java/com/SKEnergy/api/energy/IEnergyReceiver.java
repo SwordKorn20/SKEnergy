@@ -1,6 +1,6 @@
 package com.SKEnergy.api.energy;
 
-import com.SKEnergy.api.RotationalDirection;
+import net.minecraft.util.EnumFacing;
 
 /**
  * Implemented on TileEntities which should receive energy, generally storing it in one or more internal tank
@@ -21,15 +21,15 @@ public interface IEnergyReceiver extends IEnergyConnection
      *  If TRUE, the charge will only be simulated
      * @return Amount of energy that was (or would have been, if simulated) received
      */
-    int receiveEnergy(RotationalDirection from, int maxReceive, boolean simulate);
+    int receiveEnergy(EnumFacing from, int maxReceive, boolean simulate);
 
     /**
      * Returns the amount of energy currently stored
      */
-    int getEnergyStored(RotationalDirection from);
+    int getEnergyStored(EnumFacing from);
 
     /**
      * Returns the maximum amount of energy that can be stored
      */
-    int getMaxEnergyStored(RotationalDirection from);
+    int getMaxEnergyStored(EnumFacing from);
 }

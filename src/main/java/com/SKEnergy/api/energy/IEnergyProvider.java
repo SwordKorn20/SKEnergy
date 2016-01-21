@@ -1,6 +1,6 @@
 package com.SKEnergy.api.energy;
 
-import com.SKEnergy.api.RotationalDirection;
+import net.minecraft.util.EnumFacing;
 
 /**
  * Implemented on TileEntities which should provide energy
@@ -22,15 +22,15 @@ public interface IEnergyProvider extends IEnergyConnection
      *  If TRUE, the extraction will only be simulated
      * @return Amount of energy that was (or would have been if simulated) extracted
      */
-    int extractEnergy(RotationalDirection from, int maxExtract, boolean simulate);
+    int extractEnergy(EnumFacing from, int maxExtract, boolean simulate);
 
     /**
      * Returns the amount of energy currently stored
      */
-    int getEnergyStored(RotationalDirection from);
+    int getEnergyStored(EnumFacing from);
 
     /**
      * Returns the maximum amount of energy that can be stored
      */
-    int getMaxEnergyStored(RotationalDirection from);
+    int getMaxEnergyStored(EnumFacing from);
 }
