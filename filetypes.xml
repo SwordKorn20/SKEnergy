@@ -1,6 +1,7 @@
 <application>
-  <component name="FileTypeManager" version="16">
+  <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="gen1.json" type="PLAIN_TEXT" />
       <mapping ext="info" type="PLAIN_TEXT" />
       <mapping ext="lang" type="PLAIN_TEXT" />
     </extensionMap>
