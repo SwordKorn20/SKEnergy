@@ -50,4 +50,16 @@
   <component name="RefactoringSettings">
     <option name="MOVE_PREVIEW_USAGES" value="false" />
   </component>
+  <component name="SvnApplicationSettings">
+    <option name="myCheckoutURLs">
+      <list>
+        <option value="https://github.com/SwordKorn20/MysticalCrops1.9.4rewrite" />
+      </list>
+    </option>
+    <option name="myTypedURLs">
+      <list>
+        <option value="https://github.com/SwordKorn20/MysticalCrops1.9.4rewrite" />
+      </list>
+    </option>
+  </component>
 </application>
